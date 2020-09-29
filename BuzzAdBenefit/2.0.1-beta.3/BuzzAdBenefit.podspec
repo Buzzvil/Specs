@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.dependency 'AFNetworking', '~> 4.0'
   s.dependency 'SDWebImage', '~> 5.0'
   s.dependency 'SDWebImageWebPCoder'
-  s.dependency 'GoogleAds-IMA-iOS-SDK', '~> 3.11.3'
+  s.dependency 'GoogleAds-IMA-iOS-SDK', '~> 3.12.1'
   s.dependency 'ReactiveObjC', '~> 3.1.1'
 
   s.weak_framework = 'AppTrackingTransparency'
