@@ -1,0 +1,35 @@
+{
+  "name": "BuzzAd",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "summary": "Buzzvil SDK",
+  "version": "0.0.1",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": "Buzzvil",
+  "homepage": "https://www.buzzvil.com",
+  "source": {
+    "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/181/BuzzAd.zip"
+  },
+  "vendored_frameworks": [
+    "BuzzAd.framework"
+  ],
+  "dependencies": {
+    "BuzzServiceApi": [
+      "~> 0.0.5"
+    ],
+    "ReactiveObjC": [
+      "~> 3.1.1"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  }
+}
