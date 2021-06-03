@@ -15,6 +15,9 @@
   "source": {
     "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/380/BuzzServiceApi.zip"
   },
+  "vendored_frameworks": [
+    "BuzzServiceApi.framework"
+  ],
   "dependencies": {
     "ReactiveObjC": [
       "~> 3.1.1"
