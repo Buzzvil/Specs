@@ -1,0 +1,31 @@
+{
+  "name": "BuzzBaseRewardSwift",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "requires_arc": true,
+  "summary": "Buzzvil library for BuzzAdBenefit SDK.",
+  "version": "0.1.0",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": "Buzzvil",
+  "homepage": "https://www.buzzvil.com",
+  "source": {
+    "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/2041/BuzzBaseRewardSwift.zip"
+  },
+  "vendored_frameworks": [
+    "BuzzBaseRewardSwift.xcframework"
+  ],
+  "swift_versions": "5.1",
+  "dependencies": {
+    "ReactiveObjC": [
+      "~> 3.1.1"
+    ],
+    "RxSwift": [
+      "~> 6.5.0"
+    ]
+  },
+  "swift_version": "5.1"
+}
