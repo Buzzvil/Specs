@@ -1,0 +1,36 @@
+{
+  "name": "BuzzAdBenefitNative",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "requires_arc": true,
+  "summary": "BuzzAdBenefit library for Native advertisements.",
+  "description": "BuzzAdBenefit library for Native advertisements. It provides various APIs designed from the customer's point of view, so it is easy to integrate and customize. Earn revenue by integrating Buzzvil's Native advertisements.",
+  "version": "3.2.0",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": "Buzzvil",
+  "homepage": "https://www.buzzvil.com",
+  "source": {
+    "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/2100/BuzzAdBenefitNative.zip"
+  },
+  "vendored_frameworks": [
+    "BuzzAdBenefitNative.xcframework"
+  ],
+  "dependencies": {
+    "BuzzResource": [
+      "~> 0.6.0"
+    ],
+    "BuzzImage": [
+      "~> 0.6.0"
+    ],
+    "BuzzAdBenefitBase": [
+      "~> 3.2.0"
+    ],
+    "ReactiveObjC": [
+      "~> 3.1.1"
+    ]
+  }
+}
