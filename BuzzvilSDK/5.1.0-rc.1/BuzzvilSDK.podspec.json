@@ -13,14 +13,14 @@
   "authors": "Buzzvil",
   "homepage": "https://www.buzzvil.com",
   "source": {
-    "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/9997/BuzzvilSDK.zip"
+    "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/10013/BuzzvilSDK.zip"
   },
   "vendored_frameworks": [
     "BuzzvilSDK.xcframework"
   ],
   "dependencies": {
     "BuzzBoosterSDK": [
-      "~> 4.1.0-rc.0"
+      "~> 4.1.0-rc.1"
     ],
     "BuzzAdBenefitSDK": [
       "~> 5.1.0-rc.1"
