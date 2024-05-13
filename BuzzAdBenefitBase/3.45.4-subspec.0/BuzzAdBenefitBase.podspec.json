@@ -13,7 +13,7 @@
   "authors": "Buzzvil",
   "homepage": "https://www.buzzvil.com",
   "source": {
-    "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/13333/BuzzAdBenefitBase.zip"
+    "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/13344/BuzzAdBenefitBase.zip"
   },
   "vendored_frameworks": [
     "BuzzAdBenefitBase.xcframework"
@@ -33,20 +33,8 @@
     ],
     "SDWebImageWebPCoder": [
       ">= 0"
-    ],
-    "AvatyeAdCash": [
-      "~> 2.1.7"
     ]
   },
   "swift_versions": "5.5",
-  "default_subspecs": "Banner",
-  "subspecs": [
-    {
-      "name": "Core"
-    },
-    {
-      "name": "Banner"
-    }
-  ],
   "swift_version": "5.5"
 }
