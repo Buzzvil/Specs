@@ -1,0 +1,40 @@
+{
+  "name": "BuzzAdBenefitFeed",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "requires_arc": true,
+  "summary": "Buzzvil library for BuzzAdBenefit SDK.",
+  "version": "3.45.4-subspec.0",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": "Buzzvil",
+  "homepage": "https://www.buzzvil.com",
+  "source": {
+    "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/13344/BuzzAdBenefitFeed.zip"
+  },
+  "vendored_frameworks": [
+    "BuzzAdBenefitFeed.xcframework"
+  ],
+  "dependencies": {
+    "BuzzAdBenefitBase": [
+      "~> 3.45.4-subspec.0"
+    ],
+    "BuzzAdBenefitNative": [
+      "~> 3.45.4-subspec.0"
+    ],
+    "BuzzAdBenefitInterstitial": [
+      "~> 3.45.4-subspec.0"
+    ],
+    "ReactiveObjC": [
+      "~> 3.1.1"
+    ],
+    "BuzzRxSwift": [
+      "~> 7.0.0"
+    ]
+  },
+  "swift_versions": "5.5",
+  "swift_version": "5.5"
+}
