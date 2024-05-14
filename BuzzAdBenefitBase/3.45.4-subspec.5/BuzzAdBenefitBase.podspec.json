@@ -13,12 +13,13 @@
   "authors": "Buzzvil",
   "homepage": "https://www.buzzvil.com",
   "source": {
-    "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/13380/BuzzAdBenefitBase.zip"
+    "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/13386/BuzzAdBenefitBase.zip"
   },
   "vendored_frameworks": [
     "BuzzAdBenefitBase.xcframework"
   ],
   "swift_versions": "5.5",
+  "default_subspecs": "Banner",
   "dependencies": {
     "ReactiveObjC": [
       "~> 3.1.1"
