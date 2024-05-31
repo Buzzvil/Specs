@@ -1,0 +1,51 @@
+{
+  "name": "BuzzAdBenefit",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "requires_arc": true,
+  "summary": "Buzzvil library for BuzzAdBenefit SDK.",
+  "version": "3.45.4-exclude.0",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": "Buzzvil",
+  "homepage": "https://www.buzzvil.com",
+  "source": {
+    "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/13592/BuzzAdBenefit.zip"
+  },
+  "vendored_frameworks": [
+    "BuzzAdBenefit.xcframework"
+  ],
+  "dependencies": {
+    "BuzzAdBenefitBase": [
+      "~> 3.45.4-exclude.0"
+    ],
+    "BuzzAdBenefitNative": [
+      "~> 3.45.4-exclude.0"
+    ],
+    "BuzzAdBenefitInterstitial": [
+      "~> 3.45.4-exclude.0"
+    ],
+    "BuzzAdBenefitFeed": [
+      "~> 3.45.4-exclude.0"
+    ]
+  },
+  "default_subspecs": "Banner",
+  "swift_versions": "5.5",
+  "subspecs": [
+    {
+      "name": "Core"
+    },
+    {
+      "name": "Banner",
+      "dependencies": {
+        "AvatyeAdCash": [
+          "= 2.2.0"
+        ]
+      }
+    }
+  ],
+  "swift_version": "5.5"
+}
