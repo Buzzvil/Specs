@@ -1,0 +1,68 @@
+{
+  "name": "BuzzAdBenefit",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "requires_arc": true,
+  "summary": "Buzzvil library for BuzzAdBenefit SDK.",
+  "version": "3.45.4-exclude.9",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": "Buzzvil",
+  "homepage": "https://www.buzzvil.com",
+  "source": {
+    "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/13673/BuzzAdBenefit.zip"
+  },
+  "vendored_frameworks": [
+    "BuzzAdBenefit.xcframework"
+  ],
+  "default_subspecs": "Core",
+  "swift_versions": "5.5",
+  "dependencies": {
+    "BuzzAdBenefitBase": [
+      "~> 3.45.4-exclude.9"
+    ],
+    "BuzzAdBenefitNative": [
+      "~> 3.45.4-exclude.9"
+    ],
+    "BuzzAdBenefitInterstitial": [
+      "~> 3.45.4-exclude.9"
+    ],
+    "BuzzAdBenefitFeed": [
+      "~> 3.45.4-exclude.9"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "dependencies": {
+        "BuzzAdBenefitBase": [
+          "~> 3.45.4-exclude.9"
+        ],
+        "BuzzAdBenefitNative": [
+          "~> 3.45.4-exclude.9"
+        ],
+        "BuzzAdBenefitInterstitial": [
+          "~> 3.45.4-exclude.9"
+        ],
+        "BuzzAdBenefitFeed": [
+          "~> 3.45.4-exclude.9"
+        ]
+      }
+    },
+    {
+      "name": "Banner",
+      "dependencies": {
+        "BuzzAdBenefit/Core": [
+
+        ],
+        "BuzzAdBenefitBanner": [
+          "~> 3.45.4-exclude.9"
+        ]
+      }
+    }
+  ],
+  "swift_version": "5.5"
+}
