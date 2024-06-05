@@ -1,0 +1,34 @@
+{
+  "name": "BuzzAdBenefitBanner",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "requires_arc": true,
+  "summary": "Buzzvil library for BuzzAdBenefit SDK.",
+  "version": "3.45.4-exclude.4",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": "Buzzvil",
+  "homepage": "https://www.buzzvil.com",
+  "source": {
+    "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/13640/BuzzAdBenefitBanner.zip"
+  },
+  "vendored_frameworks": [
+    "BuzzAdBenefitBanner.xcframework"
+  ],
+  "dependencies": {
+    "BuzzAdBenefitBase": [
+      "~> 3.45.4-exclude.4"
+    ],
+    "BuzzRxSwift": [
+      "~> 7.0.0"
+    ],
+    "AvatyeAdCash": [
+      "~> 2.2.0"
+    ]
+  },
+  "swift_versions": "5.5",
+  "swift_version": "5.5"
+}
