@@ -13,7 +13,7 @@
   "authors": "Buzzvil",
   "homepage": "https://www.buzzvil.com",
   "source": {
-    "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/13779/BuzzAvatyeAdCash.zip"
+    "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/13783/BuzzAvatyeAdCash.zip"
   },
   "vendored_frameworks": [
     "BuzzAvatyeAdCash.xcframework"
