@@ -1,0 +1,139 @@
+{
+  "name": "BuzzAdBenefit",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "requires_arc": true,
+  "summary": "Buzzvil library for BuzzAdBenefit SDK.",
+  "version": "3.45.10",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": "Buzzvil",
+  "homepage": "https://www.buzzvil.com",
+  "source": {
+    "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/14142/BuzzAdBenefit.zip"
+  },
+  "dependencies": {
+    "BuzzAdBenefitBase": [
+      "~> 3.45.10"
+    ],
+    "BuzzAdBenefitNative": [
+      "~> 3.45.10"
+    ],
+    "BuzzAdBenefitInterstitial": [
+      "~> 3.45.10"
+    ],
+    "BuzzAdBenefitFeed": [
+      "~> 3.45.10"
+    ]
+  },
+  "swift_versions": "5.5",
+  "default_subspecs": "Default",
+  "subspecs": [
+    {
+      "name": "BuzzvilSpecs",
+      "vendored_frameworks": [
+        "BuzzAdBenefit.xcframework"
+      ]
+    },
+    {
+      "name": "Default",
+      "vendored_frameworks": [
+        "BuzzAdBenefit.xcframework"
+      ],
+      "dependencies": {
+        "BuzzAvatyeAdCash": [
+          "~> 3.45.5"
+        ]
+      }
+    },
+    {
+      "name": "BuzzvilSpecs",
+      "vendored_frameworks": [
+        "BuzzAdBenefit.xcframework"
+      ]
+    },
+    {
+      "name": "Default",
+      "vendored_frameworks": [
+        "BuzzAdBenefit.xcframework"
+      ],
+      "dependencies": {
+        "BuzzAvatyeAdCash": [
+          "~> 3.45.6"
+        ]
+      }
+    },
+    {
+      "name": "BuzzvilSpecs",
+      "vendored_frameworks": [
+        "BuzzAdBenefit.xcframework"
+      ]
+    },
+    {
+      "name": "Default",
+      "vendored_frameworks": [
+        "BuzzAdBenefit.xcframework"
+      ],
+      "dependencies": {
+        "BuzzAvatyeAdCash": [
+          "~> 3.45.7"
+        ]
+      }
+    },
+    {
+      "name": "BuzzvilSpecs",
+      "vendored_frameworks": [
+        "BuzzAdBenefit.xcframework"
+      ]
+    },
+    {
+      "name": "Default",
+      "vendored_frameworks": [
+        "BuzzAdBenefit.xcframework"
+      ],
+      "dependencies": {
+        "BuzzAvatyeAdCash": [
+          "~> 3.45.8"
+        ]
+      }
+    },
+    {
+      "name": "BuzzvilSpecs",
+      "vendored_frameworks": [
+        "BuzzAdBenefit.xcframework"
+      ]
+    },
+    {
+      "name": "Default",
+      "vendored_frameworks": [
+        "BuzzAdBenefit.xcframework"
+      ],
+      "dependencies": {
+        "BuzzAvatyeAdCash": [
+          "~> 3.45.9"
+        ]
+      }
+    },
+    {
+      "name": "BuzzvilSpecs",
+      "vendored_frameworks": [
+        "BuzzAdBenefit.xcframework"
+      ]
+    },
+    {
+      "name": "Default",
+      "vendored_frameworks": [
+        "BuzzAdBenefit.xcframework"
+      ],
+      "dependencies": {
+        "BuzzAvatyeAdCash": [
+          "~> 3.45.10"
+        ]
+      }
+    }
+  ],
+  "swift_version": "5.5"
+}
