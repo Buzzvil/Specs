@@ -13,7 +13,7 @@
   "authors": "Buzzvil",
   "homepage": "https://www.buzzvil.com",
   "source": {
-    "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/14176/BuzzvilSDK.zip"
+    "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/14206/BuzzvilSDK.zip"
   },
   "dependencies": {
     "BuzzBoosterSDK": [
@@ -29,91 +29,6 @@
   "swift_versions": "5.5",
   "default_subspecs": "Default",
   "subspecs": [
-    {
-      "name": "BuzzvilSpecs",
-      "vendored_frameworks": [
-        "BuzzvilSDK.xcframework"
-      ]
-    },
-    {
-      "name": "Default",
-      "vendored_frameworks": [
-        "BuzzvilSDK.xcframework"
-      ],
-      "dependencies": {
-        "BuzzAvatyeAdCash": [
-          "~> 5.15.0-rc.4"
-        ]
-      }
-    },
-    {
-      "name": "BuzzvilSpecs",
-      "vendored_frameworks": [
-        "BuzzvilSDK.xcframework"
-      ]
-    },
-    {
-      "name": "Default",
-      "vendored_frameworks": [
-        "BuzzvilSDK.xcframework"
-      ],
-      "dependencies": {
-        "BuzzAvatyeAdCash": [
-          "~> 5.15.0-rc.5"
-        ]
-      }
-    },
-    {
-      "name": "BuzzvilSpecs",
-      "vendored_frameworks": [
-        "BuzzvilSDK.xcframework"
-      ]
-    },
-    {
-      "name": "Default",
-      "vendored_frameworks": [
-        "BuzzvilSDK.xcframework"
-      ],
-      "dependencies": {
-        "BuzzAvatyeAdCash": [
-          "~> 5.15.0-rc.6"
-        ]
-      }
-    },
-    {
-      "name": "BuzzvilSpecs",
-      "vendored_frameworks": [
-        "BuzzvilSDK.xcframework"
-      ]
-    },
-    {
-      "name": "Default",
-      "vendored_frameworks": [
-        "BuzzvilSDK.xcframework"
-      ],
-      "dependencies": {
-        "BuzzAvatyeAdCash": [
-          "~> 5.15.0-rc.7"
-        ]
-      }
-    },
-    {
-      "name": "BuzzvilSpecs",
-      "vendored_frameworks": [
-        "BuzzvilSDK.xcframework"
-      ]
-    },
-    {
-      "name": "Default",
-      "vendored_frameworks": [
-        "BuzzvilSDK.xcframework"
-      ],
-      "dependencies": {
-        "BuzzAvatyeAdCash": [
-          "~> 5.15.0-rc.8"
-        ]
-      }
-    },
     {
       "name": "BuzzvilSpecs",
       "vendored_frameworks": [
