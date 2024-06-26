@@ -14,7 +14,7 @@
   "authors": "Buzzvil",
   "homepage": "https://www.buzzvil.com",
   "source": {
-    "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/14171/BuzzAdBenefitNative.zip"
+    "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/14216/BuzzAdBenefitNative.zip"
   },
   "vendored_frameworks": [
     "BuzzAdBenefitNative.xcframework"
