@@ -1,7 +1,7 @@
 {
   "name": "BuzzBoosterSDK",
   "platforms": {
-    "ios": "12.0"
+    "ios": "13.0"
   },
   "requires_arc": true,
   "summary": "Buzzvil library for BuzzAdBenefitSDK.",
@@ -13,7 +13,7 @@
   "authors": "Buzzvil",
   "homepage": "https://www.buzzvil.com",
   "source": {
-    "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/17180/BuzzBoosterSDK.zip"
+    "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/17196/BuzzBoosterSDK.zip"
   },
   "vendored_frameworks": [
     "BuzzBoosterSDK.xcframework"
