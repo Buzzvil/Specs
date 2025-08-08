@@ -13,7 +13,7 @@
   "authors": "Buzzvil",
   "homepage": "https://www.buzzvil.com",
   "source": {
-    "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/60400-11/BuzzAvatyeAdCash.zip"
+    "http": "https://storage.googleapis.com/buzzvil-client-app/bab-ios/60400-13/BuzzAvatyeAdCash.zip"
   },
   "vendored_frameworks": [
     "BuzzAvatyeAdCash.xcframework"
@@ -23,7 +23,7 @@
       "= 6.4.0-rc.0"
     ],
     "AvatyeAdCash": [
-      "~> 3.2.1"
+      "~> 3.3.2"
     ]
   },
   "swift_versions": "5.5",
